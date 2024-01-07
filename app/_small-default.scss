@@ -1,0 +1,58 @@
+body {
+    font-family: var(--miller);
+    // background-color: var(--primaryColor);
+    // background-color: var(--primary-color);
+    .hero-banner {
+        background-image: url('/express-logistics.jpg');
+    }
+
+    // .hero-text {
+    //     animation: hero-text1 2s 3s ease-in-out both;
+    // }
+
+    .nav-active {
+        background-color: var(--secondaryColor);
+        color: white;
+    }
+
+    .mapsf {
+        background-image: url('/map-sf.svg');
+    }
+
+    @keyframes hero-text1{
+        from {
+          /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+          clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+        //   transform: none;
+      }
+         to {
+            /* clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%); */
+            clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+            // transform: scale(2);
+            // color: white;  
+        }
+    }
+    // @keyframes hero-text1{
+    //     from {
+    //       /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+    //       clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+    //       transform: none;
+    //   }
+    //      to {
+    //         /* clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%); */
+    //         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    //         // transform: scale(2);
+    //         // color: white;  
+    //     }
+    // }
+
+    // .api {
+    //     transform-origin: center;
+    //     transition: transform 2s ease-in-out;
+    // }
+   
+    // .api.active {
+    //     transform: rotate(360deg);
+    //   }
+      
+}
