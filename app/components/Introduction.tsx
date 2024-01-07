@@ -32,7 +32,7 @@ export default function Introduction() {
         </h2>
         <h5 className="mb-4 text-lg font-medium">flights/week(747)</h5>
         <p className="text-neutral-500 dark:text-neutral-300">
-        LGG, FRA, AMS, LHR
+            LGG, FRA
         </p>
       </div>
     </div>
