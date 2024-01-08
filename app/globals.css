@@ -80,7 +80,7 @@ body .hero-banner {
   background-image: url("/express-logistics.jpg");
 }
 body .nav-active {
-  background-color: var(--secondaryColor);
+  background-color: var(--primaryColor3);
   color: white;
 }
 body .mapsf {

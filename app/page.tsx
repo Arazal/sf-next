@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image';
 import Link from 'next/link'
 import ServiceSolutions from '@/app/components/ServiceSolutions'
@@ -9,8 +11,16 @@ import MapSF from './components/MapSF'
 import Test from './components/CoverageNew'
 import CoverageNew from './components/CoverageNew';
 import Introduction from './components/Introduction';
+import { gsap } from "gsap";
+import { ScrollToPlugin } from 'gsap/all';
+
+gsap.registerPlugin(ScrollToPlugin)
 
 export default function Home() {
+  const handleButtonClick = () => {
+    gsap.to(window, { duration: 4, scrollTo: { y: '.btn-scrollto', offsetY: 150 } });
+  }
+
   return (
     <div className="container my-24 mx-auto md:px-6">
 
@@ -29,8 +39,8 @@ export default function Home() {
           {/* <h1 className="hero-text pb-3 text-sfprimary mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl"> */}
             Deliver <br /><span className=" text-sfsecondary">on our every promise</span>
           </h1>
-          <Link  className="btn-getstarted animate-bounce mb-2 inline-block rounded bg-white border border-2 border-sfsecondary  text-black px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal "
-            data-te-ripple-init data-te-ripple-color="light" href="tel:+79179022933" role="button">CALL US</Link>
+          <button  className="btn-getstarted animate-bounce mb-2 inline-block rounded bg-white border border-2 border-sfsecondary  text-black px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal "
+            data-te-ripple-init data-te-ripple-color="light" onClick={handleButtonClick} role="button">GET STARTED</button>
           {/* <a className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:text-danger-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40"
             data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Learn more</a> */}
         </div>

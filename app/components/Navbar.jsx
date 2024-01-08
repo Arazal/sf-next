@@ -23,12 +23,12 @@ export default function Navbar() {
         gsap.set('#nav-plane', { opacity: 0, x: -400})
         gsap.to('#nav-plane', {
         opacity:1,
-        scale:1.1,
+        // scale:1.1,
         x:0,
         duration: 3,
         ease: 'Power0.easeInOut'
         })
-        gsap.set('#nav-plane', { scale: 1})
+        // gsap.set('#nav-plane', { scale: 1})
         gsap.to('#logo', {
         rotation:360,
         duration: 3,
