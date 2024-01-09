@@ -49,7 +49,7 @@ export default function Navbar() {
                         id="logo"
                         unoptimized={true}
                         className="mr-2 mainlogo"
-                        src="/sflogo.png"
+                        src="/SF-icon.png"
                         width={45}
                         height={45}
                         style={{width:45, height:45}}
