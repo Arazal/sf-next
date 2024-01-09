@@ -38,29 +38,29 @@ export default function Navbar() {
 
     return (
         <nav
-            className="fixed top-0  z-10 opacity-90 flex w-full flex-wrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">
+            className="fixed top-0  z-10 opacity-95 flex w-full flex-wrap items-center justify-between bg-sfprimary py-1  shadow-lg  lg:py-2">
             <div className="flex w-full flex-wrap items-center justify-between px-3">
                 <div>
                 <Link
-                    className="mx-2 my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                    className="mx-2 my-0 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
                     href="/">
                     <Image
                         ref={logo}
                         id="logo"
                         unoptimized={true}
-                        className="mr-2"
+                        className="mr-2 mainlogo"
                         src="/sflogo.png"
                         width={45}
                         height={45}
                         style={{width:45, height:45}}
                         alt="Logo"
                         loading="lazy" />
-                        <span className="font-medium dark:text-neutral-200">Home</span>
+                        <span className="font-medium dark:text-neutral-200 navtext text-white">Home</span>
                 </Link>
                 </div>
-                <img ref={plane} id="nav-plane" className="opacity-1" src="plane.png" width="120px" height="180px"/>
+                <img ref={plane} id="nav-plane" className="opacity-1" src="plane.png" width="90px" height="45px"/>
                 <Link
-                     className="mx-2 my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                     className="mx-2 my-1 flex items-center navtext text-white lg:mb-0 lg:mt-0"
                      href='/profile' >Profile
                 </Link>
             </div>

@@ -11,13 +11,33 @@ body {
     // }
 
     .nav-active {
-        background-color: var(--primaryColor3);
-        color: white;
+        background-color: white;
+        opacity: 0.8;
+        .navtext {
+            color: var(--primaryColor)
+        }
     }
+    // .nav-active {
+    //     background-color: var(--primaryColor);
+    //     .navtext {
+    //         color: var(--primaryColor3)
+    //     }
+    // }
 
     .mapsf {
         background-image: url('/map-sf.svg');
     }
+
+    @layer base {
+        .countries-card {
+            @apply space-y-1 p-2 m-1 border border-dashed border-sfprimary rounded-md;
+        }
+        .countries-network-card {
+            @apply space-y-1 p-2 m-1;
+        }
+    }
+
+  
 
     @keyframes hero-text1{
         from {
