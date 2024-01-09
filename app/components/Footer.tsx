@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer
         className="bg-sfprimary text-center  lg:text-left">
-        <div className="p-4 m-4 text-center text-white flex flex-col justify-around">
+        <div className="p-4 mt-4 text-center text-white flex flex-col justify-around">
         <div><a href = "mailto: laiweicai@sf-express.com">Contact us: laiweicai@sf-express.com</a></div>
           © 2024
           {/* <Link

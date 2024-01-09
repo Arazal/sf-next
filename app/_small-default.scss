@@ -39,7 +39,7 @@ body {
 
     @layer components {
         .btn-getstarted{
-            @apply animate-pulse sm:w-10/12 md:w-1/2 hover:bg-sfsecondary hover:text-sfsecondary2 mb-2 inline-block rounded  border-2 border-sfsecondary px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal
+            @apply animate-pulse text-center sm:w-10/12 md:w-1/2 hover:bg-sfsecondary hover:text-sfsecondary2 mb-2 inline-block rounded  border-2 border-sfsecondary px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal
         }
     }
 
