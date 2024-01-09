@@ -22,7 +22,7 @@ export default function Home() {
   }
 
   return (
-    <div className="container my-24 mx-auto md:px-6">
+    <div className="container my-24 mx-auto md:px-6 overflow-x-hidden">
 
   <section className="mb-32">
   {/* transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95) */}
