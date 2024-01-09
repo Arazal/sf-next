@@ -11,8 +11,6 @@ export default function Footer() {
             className="text-white "
             href="/"
             >SF International</Link> */}
-            
-            
         </div>
       </footer>
     )

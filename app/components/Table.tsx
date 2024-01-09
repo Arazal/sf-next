@@ -5,7 +5,7 @@ export default function Table() {
     <h4 className="text-center m-3">23 Countries and Regions, from Europe to Asia/North America etc.</h4>
     <h4 className="text-center m-3">SF Economy Express (International) Coverage</h4>
 
-    <section className="grid grid-cols-3 gap-1 m-3 md:w-4/5 ml-auto mr-auto">
+    <section className="grid grid-cols-3 gap-1 m-3  mx-auto">
       <div className="text-center bg-secondary-800 text-primary-50">Zone Area</div>
       <div className="text-center bg-secondary-800 text-primary-50">Destinations(ex AMS)</div>
       <div className="text-center bg-secondary-800 text-primary-50">Ttransit Time(working days)</div>

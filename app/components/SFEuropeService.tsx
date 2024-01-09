@@ -2,7 +2,7 @@ export default function SFEuropeSecvice() {
     return (
     <>
     <h3 className="products-services text-center text-sfprimary m-3">Products and Services</h3>
-    <section className=" m-3 grid grid-cols-1 md:grid-cols-5 md:w-4/5 ml-auto mr-auto border border-sfprimary border-dashed">
+    <section className=" m-3 grid grid-cols-1 md:grid-cols-5 mx-auto border border-sfprimary border-dashed">
       <div className="m-3">
         <div className="box-product bg-sfsecondary rounded">
           <h3 className="text-primary-50 text-center text-xl">EUROPE IMPORT</h3>
