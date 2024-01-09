@@ -97,6 +97,11 @@ body .mapsf {
     @apply space-y-1 p-2 m-1;
   }
 }
+@layer components {
+  body .btn-getstarted {
+    @apply hover:bg-sfsecondary hover:text-sfsecondary2 mb-2 inline-block rounded  border-2 border-sfsecondary px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal;
+  }
+}
 @keyframes hero-text1 {
   from {
     /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */

@@ -37,6 +37,12 @@ body {
         }
     }
 
+    @layer components {
+        .btn-getstarted{
+            @apply hover:bg-sfsecondary hover:text-sfsecondary2 mb-2 inline-block rounded  border-2 border-sfsecondary px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal
+        }
+    }
+
   
 
     @keyframes hero-text1{

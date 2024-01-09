@@ -39,10 +39,13 @@ export default function Home() {
           {/* <h1 className="hero-text pb-3 text-sfprimary mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl"> */}
             Deliver <br /><span className=" text-sfsecondary">on our every promise</span>
           </h1>
-          <button  className="btn-getstarted animate-bounce mb-2 inline-block rounded bg-white border border-2 border-sfsecondary  text-black px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal "
-            data-te-ripple-init data-te-ripple-color="light" onClick={handleButtonClick} role="button">GET STARTED</button>
-          {/* <a className="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:text-danger-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40"
-            data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Learn more</a> */}
+          <div className=' space-x-4'>
+            <button  className="btn-getstarted animate-bounce"
+              data-te-ripple-init data-te-ripple-color="light" onClick={handleButtonClick} role="button">GET STARTED</button>
+            <a className="btn-getstarted"
+              data-te-ripple-init data-te-ripple-color="light" href="mailto: laiweicai@sf-express.com" role="button">CONTACT US</a>
+          </div>
+          
         </div>
       </div>
     </div>
