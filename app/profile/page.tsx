@@ -8,8 +8,8 @@ export default function Profile() {
         
         <section className=''>
        <h3 className=' m-4 text-center'>COMPANY PROFILE</h3>
-       <h4 className='m-4 text-center'>SF (Stock code: 002352) was established in Shunde, Guangdong Province in 1993.</h4>
-            <h4 className='my-4'>SF is the largest integrated logistics service provider in China, and the fourth largest express delivery enterprise in the world, providing domestic and international end-to-end one-stop supply chain services. At the same time, relying on leading scientific and technological research and development capabilities, SF is committed to building the digital supply chain ecology and becoming a leader in the global intelligent supply chain.</h4>
+       <h4 className='m-2 text-center'>SF (Stock code: 002352) was established in Shunde, Guangdong Province in 1993.</h4>
+            <h4 className='m-2'>SF is the largest integrated logistics service provider in China, and the fourth largest express delivery enterprise in the world, providing domestic and international end-to-end one-stop supply chain services. At the same time, relying on leading scientific and technological research and development capabilities, SF is committed to building the digital supply chain ecology and becoming a leader in the global intelligent supply chain.</h4>
             <div className=" grid grid-cols-1 md:grid-cols-3"> 
                 <div className=' md:col-start-1 md:col-end-4 h-full'>
                     <Image className=' w-full h-full' src="/slede-plane-car-ship.jpg"  width={440} height={139}  alt='sf-plane and car'/>
