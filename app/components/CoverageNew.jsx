@@ -2,16 +2,16 @@ export default function CoverageNew() {
     return (
         <>
         {/* <h3 className="text-center text-sfprimary m-3">Express E-Commerce Gateway and Coverage</h3> */}
-        <div className="container my-24 mx-auto md:px-6">
+        <div className="container  mx-auto md:px-6">
  
- <section className="mb-32">
+ <section className="mb-6">
   
    <div className="container mx-auto text-center lg:text-left xl:px-32">
      <div className="flex grid items-center lg:grid-cols-2">
        <div className="mb-12 lg:mb-0">
          <div
            className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
-           <h2 className="mb-8 text-3xl font-bold">Express E-Commerce Gateway and Coverage</h2>
+           <h2 className="mb-8 text-2xl font-bold">Express E-Commerce Gateway and Coverage</h2>
            <p className="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0">
             
            </p>

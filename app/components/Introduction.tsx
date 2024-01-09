@@ -1,11 +1,11 @@
 export default function Introduction() {
     return (
         <>
-        <div className="container my-24 mx-auto md:px-6">
+        <div className="container  mx-auto md:px-6">
 
-  <section className="mb-32 text-center">
+  <section className=" text-center">
     <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
-      <div className="mb-12 md:mb-0">
+      <div className="mb-6 md:mb-0">
         <h2 className="display-5 mb-4 text-4xl font-bold text-sfsecondary">
           5
         </h2>

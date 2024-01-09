@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="container my-24 mx-auto md:px-6 overflow-x-hidden">
 
-  <section className="mb-32">
+  <section className="mb-3">
   {/* transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95) */}
     {/* <div className="hero-banner relative overflow-hidden bg-cover bg-no-repeat bg-[50%]  h-[500px] "></div> */}
     <div className="relative overflow-hidden bg-cover bg-no-repeat bg-[50%]  h-[500px] ">
