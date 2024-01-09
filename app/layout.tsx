@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SF WESTERN EURUPE',
+  title: 'SF WESTERN EUROPE',
   description: 'SF International Western Europe landing page',
 }
 
