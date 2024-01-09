@@ -39,12 +39,12 @@ export default function Home() {
           {/* <h1 className="hero-text pb-3 text-sfprimary mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl"> */}
             Deliver <br /><span className=" text-sfsecondary">on our every promise</span>
           </h1>
-          <div className=' space-x-4'>
-            <button  className="btn-getstarted animate-bounce"
-              data-te-ripple-init data-te-ripple-color="light" onClick={handleButtonClick} role="button">GET STARTED</button>
-            <a className="btn-getstarted"
-              data-te-ripple-init data-te-ripple-color="light" href="mailto: laiweicai@sf-express.com" role="button">CONTACT US</a>
-          </div>
+          {/* <div className=' space-x-4'> */}
+            <button  className="btn-getstarted  m-1"
+               onClick={handleButtonClick}>GET STARTED</button>
+            <a className="btn-getstarted m-1"
+               href="mailto: laiweicai@sf-express.com">CONTACT US</a>
+          {/* </div> */}
           
         </div>
       </div>
