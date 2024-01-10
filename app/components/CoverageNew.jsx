@@ -17,7 +17,7 @@ export default function CoverageNew() {
            </p>
 
            <div className="mx-auto mb-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
-             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 hover:text-sfsecondary-new1-800">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
                  stroke="currentColor" className="mr-2 h-5 w-5">
                  <path strokeLinecap="round" strokeLinejoin="round"
@@ -31,7 +31,7 @@ export default function CoverageNew() {
            </p>
 
            <div className="mx-auto mb-4 mt-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
-             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 hover:text-sfsecondary-new1-800">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
                  stroke="currentColor" className="mr-2 h-5 w-5">
                  <path strokeLinecap="round" strokeLinejoin="round"
@@ -45,7 +45,7 @@ export default function CoverageNew() {
            </p>
 
            <div className="mx-auto mb-4 mt-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
-             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 hover:text-sfsecondary-new1-800">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
                  stroke="currentColor" className="mr-2 h-5 w-5">
                  <path strokeLinecap="round" strokeLinejoin="round"
@@ -59,7 +59,7 @@ export default function CoverageNew() {
            </p>
 
            <div className="mx-auto mb-4 mt-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
-             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 hover:text-sfsecondary-new1-800">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
                  stroke="currentColor" className="mr-2 h-5 w-5">
                  <path strokeLinecap="round" strokeLinejoin="round"
@@ -73,7 +73,7 @@ export default function CoverageNew() {
            </p>
 
            <div className="mx-auto mb-4 mt-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
-             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+             <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 hover:text-sfsecondary-new1-600">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
                  stroke="currentColor" className="mr-2 h-5 w-5">
                  <path strokeLinecap="round" strokeLinejoin="round"
