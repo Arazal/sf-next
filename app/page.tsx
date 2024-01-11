@@ -39,6 +39,10 @@ export default function Home() {
           {/* <h1 className="hero-text pb-3 text-sfprimary mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl"> */}
             Deliver <br /><span className=" text-sfsecondary">on our every promise</span>
           </h1>
+          {/* <p
+            className="bg-gradient-to-r from-primary to-danger bg-clip-text text-transparent">
+            Gradient text
+          </p> */}
           {/* <div className=' space-x-4'> */}
             <button  className="btn-getstarted  m-1"
                onClick={handleButtonClick}>GET STARTED</button>

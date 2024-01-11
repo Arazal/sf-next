@@ -1,7 +1,8 @@
 export default function Table() {
     return (
         <>
-    <h3 className="text-center m-3">Current Service Coverage</h3>
+    <h3 className="text-center m-3 ">Current Service Coverage</h3>
+
     <h4 className="text-center m-3">23 Countries and Regions, from Europe to Asia/North America etc.</h4>
     <h4 className="text-center m-3">SF Economy Express (International) Coverage</h4>
 
