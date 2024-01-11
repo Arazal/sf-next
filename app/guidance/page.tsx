@@ -128,11 +128,11 @@ gsap.to('#car5-new', {
     }, [])
     return (
         
-        <div className='container'>  
+        <div className=''>  
        <div className="flex flex-col justify-center h-[70vh] w-screen bg-gradient-to-tr from-sfprimary to-sfprimary-new1-600">
                     <h3 className="text-center text-white">Using Guidance of Economy Express (International) from Netherlands</h3>
                 </div>
-                <div className="h-3 bg-sfsecondary"></div>
+                <div className="h-3 bg-sfsecondary w-screen"></div>
                 {/* <div className="flex flex-row justify-between items-center m-3 h-[30vh]">
                     <div><a href='http://sf-international.com'>www.sf-international.com</a></div>
                     <div><Image src={'/sf-international-logo.png'} alt='logo' width={180} height={90}/></div> 
@@ -145,13 +145,13 @@ gsap.to('#car5-new', {
                     <Link href='#'>04 SOP of Using Guidance</Link>
                 </section>
 
-                <div ref={guidance} className='w-5/6 mx-auto grid grid-cols-1'>
+                <div ref={guidance} className='w-5/6 ml-auto mr-auto grid grid-cols-1'>
                 {/* <defs>
     <image id="image" width="300" height="195" xlinkHref="/plane.png"/>
     <image id="image-2" width="400" height="267" xlinkHref="/SFcarNew1reversed.png"/>
   </defs> */}
               
-<div className='col-start-1 row-start-1  '></div>
+{/* <div className='col-start-1 row-start-1  '></div> */}
 {/* <svg className='z-10 col-start-1 row-start-1' id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1229 621.31"> */}
 
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1281.17 512.86">
