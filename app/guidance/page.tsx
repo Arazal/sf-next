@@ -243,8 +243,8 @@ gsap.to('#car5-new', {
   <text  transform="translate(5 194.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">Company</tspan></text>
   <text  transform="translate(2 480.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">Consumer</tspan></text>
   <text  transform="translate(287 483.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">SF AMS Warehouse</tspan></text>
-  <text  transform="translate(579 481.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">Customs Clearence</tspan></text>
-  <text  transform="translate(866 198.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">China</tspan></text>
+  <text  transform="translate(579 481.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">Customs Clearance</tspan></text>
+  <text  transform="translate(866 198.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">China CAN</tspan></text>
   <text  transform="translate(866 480.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">HK Hub</tspan></text>
   <text  transform="translate(1153 191.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">China Mainland</tspan></text>
   <text  transform="translate(1155 478.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">Other Countries</tspan></text>
