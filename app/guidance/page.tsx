@@ -14,7 +14,7 @@ export default function Guidance() {
    
     return (
         
-    <div className=''>  
+    <div className='overflow-x-hidden'>  
        <div className="flex flex-col justify-center h-[70vh] w-screen bg-gradient-to-tr from-sfprimary to-sfprimary-new1-600">
             <h3 className="text-center text-white m-3">Using Guidance of Economy Express (International) from Netherlands</h3>
         </div>
