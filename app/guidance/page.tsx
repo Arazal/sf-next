@@ -29,8 +29,9 @@ export default function Guidance() {
          
             <Slide2 />   
             <Slide3 />
-            <Slide4 />
             <Slide5 />
+            <Slide4 />
+            
     </div>
     )
 }
