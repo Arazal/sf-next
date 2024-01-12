@@ -1,12 +1,12 @@
 export default function Table() {
     return (
         <>
-    <h3 className="text-center m-3 ">Current Service Coverage</h3>
+    {/* <h3 className="text-center m-3 ">Current Service Coverage</h3>
 
     <h4 className="text-center m-3">23 Countries and Regions, from Europe to Asia/North America etc.</h4>
-    <h4 className="text-center m-3">SF Economy Express (International) Coverage</h4>
+    <h4 className="text-center m-3">SF Economy Express (International) Coverage</h4> */}
 
-    <section className="grid grid-cols-3 gap-1 m-3  mx-auto group">
+    <section className="grid grid-cols-3 gap-1 m-3  mx-auto group text-sm">
       <div className="text-center bg-sfprimary-new1-950 text-primary-50">Zone Area</div>
       <div className="text-center bg-sfprimary-new1-950 text-primary-50">Destinations (ex AMS)</div>
       <div className="text-center bg-sfprimary-new1-950 text-primary-50">Ttransit Time (working days)</div>
