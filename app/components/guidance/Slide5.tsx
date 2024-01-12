@@ -4,8 +4,8 @@ import Table from '../Table'
 export default function Slide5() {
     return (
         <div className="mt-12 text-left w-5/6 mx-auto">
-            <h3 className="text-center"><span className="text-white bg-sfsecondary p-1">Service Coverage: </span>23 Countries and Regions, from NL to Asia/North America etc.</h3>
-            <h3 className="text-center"><span className="text-white bg-sfsecondary p-1">Transit Time:</span> 5-12 working days</h3>
+            <h3 className="text-center"><span className="text-white bg-sfsecondary ">Service Coverage: </span>23 Countries and Regions, from NL to Asia/North America etc.</h3>
+            <h3 className="text-center"><span className="text-white bg-sfsecondary ">Transit Time:</span> 5-12 working days</h3>
 
         <section className='grid grid-cols1 md:grid-cols6'>
             <Image className=' md:col-start-1 md:col-end-4 ' src='/worldMap.png' height={1420} width={2291} alt='world map'/>

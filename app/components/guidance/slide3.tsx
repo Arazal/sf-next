@@ -13,8 +13,8 @@ export default function Slide3() {
             {/* <Image src='/map-sfeurope.png' width={1595} height={1879} alt='sf map europe'/>
             <div>2</div> */}
 <div className='max-w-max px-4 py-2  text-center space-y-4 col-start-1 row-start-1'>
-    <div className=' bg-[#F79645] text-white w-full p-3'>The 1st Echelon</div>
-    <div className=' bg-[#517FB8] text-white w-full p-3'>The 2nd Echelon</div>
+    <div className='z-10 bg-[#F79645] text-white w-full p-3'>The 1st Echelon</div>
+    <div className='z-10 bg-[#517FB8] text-white w-full p-3'>The 2nd Echelon</div>
 </div>
 <svg className='col-start-1 row-start-1' id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 384.5 509.67">
   <g>
