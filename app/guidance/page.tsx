@@ -130,7 +130,7 @@ gsap.to('#car5-new', {
         
         <div className=''>  
        <div className="flex flex-col justify-center h-[70vh] w-screen bg-gradient-to-tr from-sfprimary to-sfprimary-new1-600">
-                    <h3 className="text-center text-white">Using Guidance of Economy Express (International) from Netherlands</h3>
+                    <h3 className="text-center text-white sm:mx-3 md:mx-0">Using Guidance of Economy Express (International) from Netherlands</h3>
                 </div>
                 <div className="h-3 bg-sfsecondary w-screen"></div>
                 {/* <div className="flex flex-row justify-between items-center m-3 h-[30vh]">
@@ -141,11 +141,13 @@ gsap.to('#car5-new', {
                 <section className=' m-3 bg-white max-w-max px-4 py-2 mx-auto rounded shadow-md text-center  grid grid-cols-1 gap-3 md:grid-cols-4'>
                     <Link href='#'>01 Definitions</Link>
                     <Link href='#'>02 Coverage and Zone Area</Link>
-                    <Link href='#'>03 Product Selling points andRatesPolicy</Link>
+                    <Link href='#'>03 Product Selling points and Rates Policy</Link>
                     <Link href='#'>04 SOP of Using Guidance</Link>
                 </section>
+        <h3 className=' text-center m-3'>01 SF Economy Express (International) Definitions</h3>
+        <h4 className=' text-xl text-center m-3'>SF Economy Express (International) is an international economy express delivery serivce launched for customers who need ship middle/high-value commodities and who are demanding on transit time and service</h4>
 
-                <div ref={guidance} className='w-5/6 ml-auto mr-auto grid grid-cols-1'>
+<div ref={guidance} className='w-5/6 ml-auto mr-auto grid grid-cols-1'>
                 {/* <defs>
     <image id="image" width="300" height="195" xlinkHref="/plane.png"/>
     <image id="image-2" width="400" height="267" xlinkHref="/SFcarNew1reversed.png"/>
@@ -158,6 +160,7 @@ gsap.to('#car5-new', {
   <defs>
     <image id="image-2" width="300" height="195" xlinkHref="/plane.png"/>
     <image id="image" width="400" height="267" xlinkHref="/SFcarNew1reversed.png"/>
+    <image id="image-3" width="400" height="267" xlinkHref="/CarNewWOlabel.png"/>
   </defs>
   <g id="consumer">
     <g>
@@ -246,7 +249,7 @@ gsap.to('#car5-new', {
   <text  transform="translate(1153 191.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">China Mainland</tspan></text>
   <text  transform="translate(1155 478.11)" fontFamily="Broadway, Broadway" fontSize="16"><tspan x="0" y="0">Other Countries</tspan></text>
 
-  <path id="path1-new" d="m126,167.61h199" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  {/* <path id="path1-new" d="m126,167.61h199" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
   <path id="path2-new" d="m124.5,312.61h199" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
   <path id="path3-new" d="m125.5,457.61h199" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
   <path id="path4-new" d="m692,167.61h146" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
@@ -259,13 +262,32 @@ gsap.to('#car5-new', {
   <use id="car5-new" transform="translate(964.14 403.33) scale(.25)" xlinkHref="#image"/>
   <use id="car4-new" transform="translate(961.27 116.53) scale(.25)" xlinkHref="#image"/>
   <use id="plane1-new" transform="translate(682.11 100.3) scale(.37 .35)" xlinkHref="#image-2"/>
-  <use id="plane2-new" transform="translate(680 387.11) scale(.37 .35)" xlinkHref="#image-2"/>
+  <use id="plane2-new" transform="translate(680 387.11) scale(.37 .35)" xlinkHref="#image-2"/> */}
+  <path id="path1-new" d="m131.5,134.61h186.5" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <path id="path2-new" d="m131.5,284.61h180.5" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <path id="path3-new" d="m127,426.61h188.5" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <path id="path4-new" d="m692.5,133.61h134.5" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <path id="path5-new" d="m690.75,418.11h137.25" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <path id="path6-new" d="m971.5,132.61h137" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <path id="path7-new" d="m974.5,415.61h130" fill="none" stroke="" strokeLinecap="round" strokeLinejoin="round"/>
+  <use id="car1-new" transform="translate(104 74.11) scale(.26 .23)" xlinkHref="#image-3"/>
+  <use id="car2-new" transform="translate(103 233.11) scale(.25)" xlinkHref="#image-3"/>
+  <use id="car3-new" transform="translate(93 365.11) scale(.25)" xlinkHref="#image-3"/>
+  <use id="car5-new" transform="translate(973 347.11) scale(.25)" xlinkHref="#image"/>
+  <use id="car4-new" transform="translate(962 61.11) scale(.25)" xlinkHref="#image"/>
+  <use id="plane1-new" transform="translate(682 73.11) scale(.37 .35)" xlinkHref="#image-2"/>
+  <use id="plane2-new" transform="translate(679 357.11) scale(.37 .35)" xlinkHref="#image-2"/>
 
 </svg>
 
 </div>
+<p className='text-center font-bold m-3'>Features of Commodies</p>
+<div className='bg-white max-w-max px-4 py-2 mx-auto rounded shadow-md text-center space-y-4 '>
+    <div className=' bg-primary-500 text-white w-full p-3'>middle/high value</div>
+    <div className=' bg-primary-500 text-white w-full p-3'>time-senstive</div>
+</div>
                 
          
-        </div>
+</div>
     )
 }
