@@ -7,6 +7,9 @@ import Slide3 from '../components/guidance/slide3'
 import Slide2 from '../components/guidance/slide2';
 import Slide4 from '../components/guidance/Slide4';
 import Slide5 from '../components/guidance/Slide5';
+import Slide6 from '../components/guidance/Slide6';
+import Slide9 from '../components/guidance/Slide9';
+import Slide8 from '../components/guidance/Slide8';
 
 
 
@@ -31,6 +34,14 @@ export default function Guidance() {
             <Slide3 />
             <Slide5 />
             <Slide4 />
+            <Slide6 />
+            <Slide8 />
+            <Slide9 />
+        
+        <div className="h-3 bg-sfsecondary w-screen"></div>
+        <div className="flex flex-col justify-center h-[70vh] w-screen bg-gradient-to-tr from-sfprimary to-sfprimary-new1-600">
+            <h3 className="text-center text-white m-3">Thank you!</h3>
+        </div>
             
     </div>
     )

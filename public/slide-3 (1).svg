@@ -1,24 +1,5 @@
-import Image from 'next/image'
-
-export default function Slide3() {
-    return (
-
-   <div className='mt-12'>
-
-<h3 className='text-center m-3'>SF Economy Express (International) Target Marketing</h3>
-<p className='text-center m-3'>Time-sensetive:focusing on electronics, auto parts, clothing and fresh industries, providing market- leading timeliness and services</p>
-   
-         {/* <div className="grid sm:grid-cols-1 md:grid-cols-2"> */}
-         {/* <image width="1589" height="1878" transform="scale(.22)" xlinkHref="/map-sfeurope.png"/> */}
-        <div className='w-3/4 md:w-1/2 mx-auto my-3 grid grid-cols-1'>
-            {/* <Image src='/map-sfeurope.png' width={1595} height={1879} alt='sf map europe'/>
-            <div>2</div> */}
-<div className=' z-10 max-w-max px-4 py-2  text-center space-y-4 col-start-1 row-start-1'>
-    <div className=' text bg-[#F79645] text-white w-full p-3'>The 1st Echelon</div>
-    <div className=' bg-[#517FB8] text-white w-full p-3'>The 2nd Echelon</div>
-</div>
-{/* <svg className='col-start-1 row-start-1' id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 384.5 509.67"> */}
-<svg  className='col-start-1 row-start-1' id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 390.21 413.67">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 390.21 413.67">
   <g>
     <path d="m353.85,79.59v-22.19c0-.66-.5-1.19-1.12-1.19h-6.36v-5.12c0-.66-.5-1.19-1.12-1.19h-4.84v-1.61c0-3.32-2.44-6.11-5.57-6.28-3.38-.18-6.19,2.67-6.19,6.21v1.67h-4.84c-.62,0-1.12.53-1.12,1.19v5.12h-6.41c-.62,0-1.12.53-1.12,1.19v22.19c-1.74.03-3.15,1.55-3.15,3.41v.58c0,1.89,1.44,3.41,3.22,3.41h38.55c1.78,0,3.22-1.53,3.22-3.41v-.58c0-1.86-1.41-3.38-3.15-3.41Zm-30.09-4.44h21.49c.62,0,1.12-.53,1.12-1.19v-11.32h1.69v16.68h-27.11v-16.68h1.69v11.32c0,.66.5,1.19,1.13,1.19Zm27.84-16.56v20.73h-1.29v-17.87c0-.66-.5-1.19-1.12-1.19h-2.81v-1.67h5.23Zm-20.7-10.37c0-2.22,1.79-4.01,3.92-3.83,1.89.16,3.33,1.87,3.33,3.88v1.62h-7.26v-1.67Zm-5.96,4.06h3.71v2.01c0,.62.44,1.16,1.02,1.21.67.06,1.23-.49,1.23-1.19v-2.04h7.26v2.01c0,.62.44,1.16,1.02,1.21.67.06,1.23-.49,1.23-1.19v-2.04h3.71v20.49h-19.18v-20.49Zm-7.54,6.31h5.23v1.67h-2.81c-.62,0-1.12.53-1.12,1.19v17.87h-1.29v-20.73h0Zm36.38,26.03h-38.55c-.54,0-.97-.46-.97-1.03v-.56c0-.57.44-1.03.97-1.03h38.55c.54,0,.97.46.97,1.03v.56c0,.57-.44,1.03-.97,1.03Z"/>
     <polygon points="337.8 65.08 330.5 61.98 333.42 69.73 334.13 67.38 337.08 70.5 338.53 68.96 335.59 65.83 337.8 65.08"/>
@@ -42,19 +23,15 @@ export default function Slide3() {
     <path d="m352.1,288.14h-4.79c-.27,0-.51.18-.57.44-.09.38.2.72.56.72h4.79c.27,0,.51-.18.57-.44.09-.38-.2-.72-.56-.72Z"/>
   </g>
   <path d="m358.59,362.52l-4.56,3.74c-.68.53-1.57.34-2.08-.45l-2.27-3.69v28.01c.01,1.01-.62,1.83-1.4,1.83l-23.18.02c-.78,0-1.41-.82-1.41-1.83v-28.04s-2.3,3.73-2.3,3.73c-.51.79-1.39.99-2.07.46l-4.57-3.73c-.55-.41-.74-1.32-.43-2.04.05-.11.11-.21.18-.3l6.68-9.62c1.59-2.29,3.85-3.6,6.22-3.6h2.78c1.54,4.65,5.69,6.8,9.28,4.8,1.67-.93,2.99-2.65,3.71-4.81h2.78c2.38,0,4.64,1.31,6.23,3.6l6.67,9.61c.45.59.44,1.54-.02,2.12-.07.09-.15.17-.23.23h0Z"/>
-  <image width="1589" height="1878" transform="scale(.22)" xlinkHref="/map-sfeurope.png"/>
+  <image width="1589" height="1878" transform="scale(.22)" xlink:href="../Pictures/sf-euro-map.png"/>
   <g>
     <path d="m338.12,150.35c1.02,0,1.85-.91,1.85-2.02s-.83-2.01-1.85-2.01l-4.67-3.68-.78.89,3.59,4.87v.07c.06,1.06.88,1.9,1.85,1.9Z"/>
     <path d="m337.33,122c-12.41,0-22.5,10.98-22.5,24.49,0,4.71,1.23,9.29,3.57,13.23l.17.3h2.79l3.79-3.6-1.63-2.04-3.69,3.51-.12-.22c-1.82-3.39-2.78-7.24-2.78-11.14,0-.11,0-.22.02-.36v-.41s4.51,0,4.51,0v-2.75h-4.26l.04-.25c.59-3.79,2.07-7.35,4.29-10.31l.14-.18,3.17,3.46,1.77-1.92-3.21-3.5.15-.15c3.31-3.32,7.4-5.31,11.83-5.77l.21-.02v5.67h2.53v-5.71h.2c4.91.26,9.57,2.43,13.12,6.11l.14.15-3.29,3.59,1.77,1.92,3.2-3.49.14.19c2.09,2.89,3.5,6.34,4.06,9.97l.04.25h-4.43v2.76h4.66l.02.44c0,.11.01.22.01.34,0,3.89-.95,7.72-2.75,11.09l-.13.24-3.48-3.78-1.76,1.92,3.7,4.03h2.75l.17-.3c2.34-3.95,3.57-8.52,3.57-13.23,0-13.5-10.09-24.49-22.5-24.49Z"/>
     <rect x="327.3" y="164.18" width="20.08" height="2.82"/>
   </g>
-  <text transform="translate(321 104.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" fontSize="12"><tspan x="0" y="0" >Retail</tspan></text>
-  <text transform="translate(286.67 182.33)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" fontSize="12"><tspan x="0" y="0" >Automobile Industry</tspan></text>
-  <text transform="translate(328.67 256.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" fontSize="12"><tspan x="0" y="0">3C</tspan></text>
-  <text transform="translate(312.33 333.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" fontSize="12"><tspan x="0" y="0">Electronic</tspan></text>
-  <text transform="translate(314.33 410.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" fontSize="12"><tspan x="0" y="0">Clothing</tspan></text>
+  <text transform="translate(321 104.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="12"><tspan x="0" y="0" letter-spacing="0em">R</tspan><tspan x="6.5" y="0">etail</tspan></text>
+  <text transform="translate(286.67 182.33)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="12"><tspan x="0" y="0" letter-spacing="-.01em">A</tspan><tspan x="7.2" y="0">u</tspan><tspan x="13.81" y="0" letter-spacing="0em">t</tspan><tspan x="17.71" y="0" letter-spacing="0em">omobile </tspan><tspan x="61.92" y="0" letter-spacing=".01em">I</tspan><tspan x="64.91" y="0" letter-spacing="0em">ndust</tspan><tspan x="93.67" y="0" letter-spacing=".02em">r</tspan><tspan x="97.9" y="0" letter-spacing="0em">y</tspan></text>
+  <text transform="translate(328.67 256.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="12"><tspan x="0" y="0">3C</tspan></text>
+  <text transform="translate(312.33 333.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="12"><tspan x="0" y="0">Ele</tspan><tspan x="14.75" y="0" letter-spacing=".01em">c</tspan><tspan x="20.28" y="0">t</tspan><tspan x="24.25" y="0" letter-spacing="0em">r</tspan><tspan x="28.06" y="0">onic</tspan></text>
+  <text transform="translate(314.33 410.67)" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="12"><tspan x="0" y="0">Clothing</tspan></text>
 </svg>
-    </div>
- </div>
-    )
-}
